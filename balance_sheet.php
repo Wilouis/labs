@@ -1,3 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title> The Balance Sheet </title>
+</head>
+
 <style>
 .cover {
 display:table; 
@@ -27,8 +34,23 @@ border-collapse:collapse;
 }
 </style>
 
+<body>
 
 <?php 
+
+/*------------------------------------------------------ IMPORTANT --------------------------------------------------------------*/
+
+/*
+This is one page of the Web application of Administrative and Financial Management developed by Wilfrid LOUIS
+
+You can access a demo version of this application from this link: "https://dealhaiti.com/pgaf" 
+username: Administrateur
+Password: Template=14 
+
+You can see this Balance Sheet web page for printing or saved as PDF from this link:"https://dealhaiti.com/download/Balance_Sheet.pdf" 
+----------------------------------------------------------------------------------------------------------------------------------  */
+
+
 
 /* Include the connection's page */
 include ("connect.php");
@@ -528,3 +550,6 @@ echo"
 </p>
 ";		
 ?>	  
+
+</body>
+</html>
