@@ -13,11 +13,11 @@ $resultat = mysql_query("SELECT * FROM profil_entreprise")
       extract ($ligne);
 	}
 	
-
+/* You can put your logo file path below */
 echo "
 <center>
 <p style='font-size:13px;'>
- <img src='../general/fichiers/$logo' height='140' /><br>
+ <img src='$logo' height='140' /><br>
  <strong> 
   NIF:  $nif <br>
   $siege_social<br> 
